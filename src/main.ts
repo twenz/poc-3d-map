@@ -10,7 +10,7 @@ const auth = () => {
     const map = document.createElement('div')
     map.id = 'map'
     map.innerHTML = `
-    <input id="logout" type="submit" class="button" value="Cancel">
+    <input id="logout" type="submit" class="button" value="Logout">
     `
     app.appendChild(map)
 
@@ -27,9 +27,6 @@ const auth = () => {
         <div class="form-group">
             <label>Password</label>
             <input type="password" placeholder="Password = pass"/>
-        </div>
-        <div class="form-group">
-            <input type="checkbox" data-role="checkbox" data-caption="Remember me">
         </div>
         <div class="form-group">
             <button type="submit" class="button success">Login</button>
